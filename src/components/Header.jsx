@@ -4,7 +4,7 @@ function Header() {
       <nav className="flex justify-between items-center max-w-7xl mx-auto px-4">
         {/* Logo más corto para móvil */}
         <div className="text-lg font-bold text-blue-400 whitespace-nowrap">
-          Portfolio
+          <a href="#home">Brandon's Portfolio</a>
         </div>
 
         {/* Menú para pantallas grandes */}

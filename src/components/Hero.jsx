@@ -2,7 +2,7 @@ function Hero() {
   return (
     <section
       id="home"
-      className="min-h-screen flex items-center justify-center bg-linear-to-br from-blue-900 to-purple-900 text-white pt-20"
+      className="min-h-screen flex items-center justify-center bg-linear-to-br from-blue-200 to-blue-900 text-white pt-20"
     >
       <div className="w-full text-center px-4">
         <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6">
