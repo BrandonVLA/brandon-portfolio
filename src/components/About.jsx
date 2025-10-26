@@ -6,7 +6,7 @@ function About() {
         <h2 className="text-4xl font-bold text-center text-gray-800 mb-12">
           About Me
         </h2>
-        <div className="max-w-3xl mx-auto text-lg text-gray-600 leading-relaxed">
+        <div className="max-w-4xl mx-auto text-lg text-gray-600 leading-relaxed">
           <p className="text-lg text-gray-700 leading-relaxed mb-6">
             "I'm a passionate{" "}
             <span className="text-blue-600 font-semibold">
