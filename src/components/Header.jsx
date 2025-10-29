@@ -19,18 +19,18 @@ function Header() {
           </li>
           <li>
             <a
-              href="#projects"
-              className="hover:text-blue-400 transition duration-300"
-            >
-              Projects
-            </a>
-          </li>
-          <li>
-            <a
               href="#about"
               className="hover:text-blue-400 transition duration-300"
             >
               About
+            </a>
+          </li>
+          <li>
+            <a
+              href="#projects"
+              className="hover:text-blue-400 transition duration-300"
+            >
+              Projects
             </a>
           </li>
           <li>
