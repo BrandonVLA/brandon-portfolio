@@ -5,7 +5,7 @@ function Contact() {
   };
   return (
     <section id="contact">
-      <div className="container mx-auto px-4">
+      <div className="container mx-auto px-4 mt-4">
         <h2 className="text-4xl font-bold text-center text-white mb-4">
           Get In Touch
         </h2>
