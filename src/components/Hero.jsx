@@ -6,14 +6,13 @@ function Hero() {
     >
       <div className="w-full text-center px-4">
         <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6">
-          Hola, soy <span className="text-blue-400">Brandon</span>
+          Hi, I'm <span className="text-blue-400">Brandon</span>
         </h1>
         <p className="text-lg md:text-xl lg:text-2xl mb-8 max-w-2xl mx-auto leading-relaxed">
-          Desarrollador Frontend apasionado por crear experiencias web
-          increíbles
+          Frontend developer passionate about creating amazing web experiences!
         </p>
         <button onClick={() => document.getElementById('projects')?.scrollIntoView({behavior: 'smooth'})} className="bg-blue-500 hover:bg-blue-600 text-white px-6 py-3 rounded-lg text-lg font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg">
-          Ver Mis Proyectos
+          Check My Projects
         </button>
       </div>
     </section>

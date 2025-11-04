@@ -98,7 +98,7 @@ function Projects() {
                 rel="noopener noreferrer"
                 className="px-2 py-2 text-white hover:underline ml-4 bg-linear-to-br bg-green-900 rounded-xl"
               >
-                Demo
+                Demo on CodePen
               </a>
               <a
                 href={project.codeLink}
@@ -106,7 +106,7 @@ function Projects() {
                 rel="noopener noreferrer"
                 className="px-2 py-2 text-white hover:underline ml-4 bg-linear-to-br bg-blue-900 rounded-xl"
               >
-                Code
+                Code on GitHub (Soon...)
               </a>
             </div>
           ))}
