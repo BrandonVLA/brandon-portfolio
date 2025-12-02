@@ -8,7 +8,7 @@ function Projects() {
       technologies: ["React", "CSS", "JavaScript"],
       demoLink:
         "https://codepen.io/Brandon-Daniel-Barrantes-Calder-n/pen/ByjdybR",
-      codeLink: "#",
+      codeLink: "https://github.com/BrandonVLA/brandon-projects/tree/main/shopping-cart",
     },
 
     {
@@ -33,37 +33,37 @@ function Projects() {
       codeLink: "#",
     },
 
-    {
-      id: 4,
-      title: "Cronometer App",
-      description:
-        "Cronometer application built with React, JavaScript and CSS.Demo on CodePen.",
-      technologies: ["React", "CSS", "JavaScript"],
-      demoLink:
-        "https://codepen.io/Brandon-Daniel-Barrantes-Calder-n/pen/vELjyaV",
-      codeLink: "#",
-    },
+    // {
+    //   id: 4,
+    //   title: "Cronometer App",
+    //   description:
+    //     "Cronometer application built with React, JavaScript and CSS.Demo on CodePen.",
+    //   technologies: ["React", "CSS", "JavaScript"],
+    //   demoLink:
+    //     "https://codepen.io/Brandon-Daniel-Barrantes-Calder-n/pen/vELjyaV",
+    //   codeLink: "#",
+    // },
 
-    {
-      id: 5,
-      title: "Task Manager",
-      description:
-        "Task manager application built with React, JavaScript and CSS. Demo on CodePen.",
-      technologies: ["React", "CSS", "JavaScript"],
-      demoLink:
-        "https://codepen.io/Brandon-Daniel-Barrantes-Calder-n/pen/gbPRPVR",
-      codeLink: "#",
-    },
+    // {
+    //   id: 5,
+    //   title: "Task Manager",
+    //   description:
+    //     "Task manager application built with React, JavaScript and CSS. Demo on CodePen.",
+    //   technologies: ["React", "CSS", "JavaScript"],
+    //   demoLink:
+    //     "https://codepen.io/Brandon-Daniel-Barrantes-Calder-n/pen/gbPRPVR",
+    //   codeLink: "#",
+    // },
 
-    {
-      id: 6,
-      title: "Coming Soon...",
-      description:
-        "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      technologies: ["React", "CSS", "JavaScript"],
-      demoLink: "#",
-      codeLink: "#",
-    },
+    // {
+    //   id: 6,
+    //   title: "Coming Soon...",
+    //   description:
+    //     "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    //   technologies: ["React", "CSS", "JavaScript"],
+    //   demoLink: "#",
+    //   codeLink: "#",
+    // },
   ];
 
   return (
@@ -106,7 +106,7 @@ function Projects() {
                 rel="noopener noreferrer"
                 className="px-2 py-2 text-white hover:underline ml-4 bg-linear-to-br bg-blue-900 rounded-xl"
               >
-                Code on GitHub (Soon...)
+                Code on GitHub
               </a>
             </div>
           ))}
