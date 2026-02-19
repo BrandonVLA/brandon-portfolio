@@ -1,4 +1,6 @@
-function Header() {
+import React from "react";
+
+function Header({ theme, toggleTheme }) {
   return (
     <header className="bg-gray-900 text-white p-3 fixed w-full top-0 z-50 shadow-lg">
       <nav className="flex justify-between items-center max-w-7xl mx-auto px-4">
@@ -7,6 +9,9 @@ function Header() {
           <a href="#home">Brandon's Portfolio</a>
         </div>
 
+        <button onClick={toggleTheme} className="text-2xl hover:scale-110 transition-transform">
+          {theme === 'dark' ? "🌤️" : "🌙"}
+        </button>
         {/* Menú para pantallas grandes */}
         <ul className="hidden md:flex space-x-4 lg:space-x-6">
           <li>

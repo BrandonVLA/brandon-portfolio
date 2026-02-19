@@ -13,25 +13,23 @@ function Projects() {
 
     {
       id: 2,
-      title: "User Manager with Dark Mode",
+      title: "Web Portfolio",
       description:
         "User manager application built with React, Context API, JavaScript and CSS with Dark Mode. Demo on CodePen.",
-      technologies: ["React", "CSS", "JavaScript"],
-      demoLink:
-        "https://codepen.io/Brandon-Daniel-Barrantes-Calder-n/pen/pvgNojL?editors=1011",
-      codeLink: "#",
+      technologies: ["React", "CSS", "JavaScript", "Tailwind CSS"],
+      codeLink: "https://github.com/BrandonVLA/brandon-portfolio",
     },
 
-    {
-      id: 3,
-      title: "Contact List",
-      description:
-        "A simple contact list application built with React, JavaScript and CSS. Demo on CodePen.",
-      technologies: ["React", "CSS", "JavaScript"],
-      demoLink:
-        "https://codepen.io/Brandon-Daniel-Barrantes-Calder-n/pen/XJXgPZx?editors=1111",
-      codeLink: "#",
-    },
+    // {
+    //   id: 3,
+    //   title: "Contact List",
+    //   description:
+    //     "A simple contact list application built with React, JavaScript and CSS. Demo on CodePen.",
+    //   technologies: ["React", "CSS", "JavaScript"],
+    //   demoLink:
+    //     "https://codepen.io/Brandon-Daniel-Barrantes-Calder-n/pen/XJXgPZx?editors=1111",
+    //   codeLink: "#",
+    // },
 
     // {
     //   id: 4,
